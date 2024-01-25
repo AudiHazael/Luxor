@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Inria+Sans:wght@300;400;700&family=Inter:wght@100;300;400;500;600;700&family=Montserrat+Alternates:wght@400;600;700&family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+body {
+  margin: 0;
+  padding: 0;
+  background: #000;
+}
+
+/* Navigation */
+.navbar-nav li.nav-item a.nav-link {
+  color: #FFF;
+  text-align: center;
+  font-family: Inria Sans;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.hero {
+  margin: 1rem 2rem;
+  display: flex;
+  /* flex-direction: column; */
+  justify-content: center;
+  align-items: center;
+}
+
+.col-md-7 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+hr {
+  width: 72px;
+  height: 5px;
+  flex-shrink: 0;
+
+  background: rgba(250, 244, 228, 0.75);
+}
+
+h1 {
+  color: #FAF4E4;
+  font-family: Montserrat;
+  font-size: 64px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+h2 {
+  color: rgba(250, 244, 228, 0.75);
+  font-family: Open Sans;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+p.hero-text {
+  color: #FAF4E4;
+  font-family: Montserrat;
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  /* letter-spacing: -0.205px; */
+}
+
+button.btn {
+  display: inline-flex;
+  padding: 15px 0;
+  width: 294px;
+  justify-content: center;
+  align-items: center;
+  background: #855217;
+
+  color: #FFF;
+  font-family: Montserrat;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: normal;
+  letter-spacing: -0.205px;
+}
+
+.about p {
+  color: #faf4e467;
+  font-family: Montserrat;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+footer p {
+  color: #FFF;
+  font-family: Montserrat;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+}
