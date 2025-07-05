@@ -41,7 +41,7 @@ body {
 
   h1 {
     @include text;
-    font-size: 64px;
+    font-size: 48px;
     font-family: Montserrat;
   }
 
@@ -55,13 +55,13 @@ body {
   p {
     @include text;
     font-family: Montserrat;
-    font-size: 36px;
+    font-size: 28px;
   }
 
   .btn {
     display: inline-flex;
-    padding: 15px 0;
-    width: 294px;
+    padding: 10px 0;
+    width: 200px;
     justify-content: center;
     align-items: center;
     background: #855217;
@@ -72,7 +72,7 @@ body {
   }
 
   img {
-    width: 95%;
+    width: 75%;
   }
 }
 
@@ -112,15 +112,15 @@ body {
 @media (max-width: 767px) {
   .hero {
     h1 {
-      font-size: 28px;
+      font-size: 2rem;
     }
 
     p {
-      font-size: 20px;
+      font-size: 1rem;
     }
 
     .btn {
-      font-size: 18px;
+      font-size: 12px;
     }
   }
 
