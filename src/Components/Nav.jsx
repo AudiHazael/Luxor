@@ -13,7 +13,12 @@ function Nav() {
       <nav className="navbar" data-aos="fade-in" data-aos-duration="1000">
         <div className="container d-flex">
           <Link className="navbar-brand" href="index.html">
-            <img src="/Images/LUXOR-1 1.png" alt="" class="logo" />
+            <img
+              style={{ height: "4rem" }}
+              src="/Images/LUXOR-1 1.png"
+              alt=""
+              class="logo"
+            />
           </Link>
         </div>
       </nav>
