@@ -1,5 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import { FaEnvelope, FaPhoneAlt, FaMapMarkerAlt } from "react-icons/fa";
 
 import Nav from "../Components/Nav";
 
@@ -112,25 +113,44 @@ function Home() {
         <div className="container">
           <div className="row">
             <div className="col-md-4 col-12 pt-4">
-              <h2>01</h2>
+              <h2>01 Luxor</h2>
+              <p>
+                Introducing Luxor, where craftsmanship meets prestige. Every
+                Luxor timepiece is more than a watch — it's a statement of
+                power, elegance, and impeccable taste. Engineered with precision
+                and designed to inspire, Luxor blends timeless sophistication
+                with modern minimalism to create watches worthy of those who
+                lead.
+              </p>
+            </div>
+            <div className="col-md-4 col-12 pt-4">
+              <h2>02</h2>
               <p>
                 Lorem, ipsum dolor sit amet consectetur adipisicing elit.
                 Quaerat harum dicta quae laboriosam inventore adipisci!
               </p>
             </div>
             <div className="col-md-4 col-12 pt-4">
-              <h2>01</h2>
-              <p>
-                Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-                Quaerat harum dicta quae laboriosam inventore adipisci!
-              </p>
-            </div>
-            <div className="col-md-4 col-12 pt-4">
-              <h2>01</h2>
-              <p>
-                Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-                Quaerat harum dicta quae laboriosam inventore adipisci!
-              </p>
+              <h2>03</h2>
+              <div className="d-flex">
+                <FaEnvelope
+                  fontSize="4.5rem"
+                  color="#faf4e4"
+                  className="ps-4 pe-4"
+                />
+                <p className="mt-4">luxuryluxor@gmail.com</p>
+              </div>
+              <div className="d-flex">
+                <FaPhoneAlt
+                  fontSize="4.5rem"
+                  color="#faf4e4"
+                  className="ps-4 pe-4"
+                />
+                <p>
+                  2347 03 940 4909 <br />
+                  2349 01 295 0002
+                </p>
+              </div>
             </div>
           </div>
         </div>

@@ -80,9 +80,13 @@ body {
 .about {
   p {
     @include text;
-    color: #faf4e467;
-    font-family: Montserrat;
+    color: #faf4e4b6;
     font-size: 14px;
+  }
+
+  h2 {
+    @include text;
+    color: rgba(250, 244, 228, 0.7);
   }
 }
 
