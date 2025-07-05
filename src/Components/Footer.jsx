@@ -10,7 +10,7 @@ import "aos/dist/aos.css";
 function Footer() {
   return (
     <div>
-      <section className=" container footer">
+      <section className=" container footer pt-5">
         <div className="copyright d-flex justify-content-center animate__animated animate__fadeIn  animate__slow animate__delay-3s">
           <p className="mt-3">
             2024 LUXOR | All Rights Reserved | Designed by{" "}

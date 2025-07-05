@@ -20,7 +20,7 @@ function Home() {
   return (
     <div>
       <Nav />
-      <section className="hero m-0 p-0">
+      <section className="hero mt-4">
         <div className="container">
           <Swiper
             modules={[Autoplay]}
@@ -108,9 +108,9 @@ function Home() {
         </div>
       </section>
 
-      <section className="about">
+      <section className="about pt-5 mt-5 pt-5">
         <div className="container">
-          <div className="row justify-content-center align-items-center">
+          <div className="row">
             <div className="col-md-4 col-12 pt-4">
               <h2>01</h2>
               <p>
@@ -118,19 +118,15 @@ function Home() {
                 Quaerat harum dicta quae laboriosam inventore adipisci!
               </p>
             </div>
-          </div>
-          <div className="row justify-content-center align-items-center">
             <div className="col-md-4 col-12 pt-4">
-              <h2>02</h2>
+              <h2>01</h2>
               <p>
                 Lorem, ipsum dolor sit amet consectetur adipisicing elit.
                 Quaerat harum dicta quae laboriosam inventore adipisci!
               </p>
             </div>
-          </div>
-          <div className="row justify-content-center align-items-center">
             <div className="col-md-4 col-12 pt-4">
-              <h2>03</h2>
+              <h2>01</h2>
               <p>
                 Lorem, ipsum dolor sit amet consectetur adipisicing elit.
                 Quaerat harum dicta quae laboriosam inventore adipisci!
